@@ -19,7 +19,7 @@ func getErrorRate(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(200)
 
 	response := ErrorResponse{
-		ErrorRate: 20.5,
+		ErrorRate: 70.0,
 		Message:   "Current error rate",
 	}
 
